@@ -1,0 +1,2 @@
+rootProject.name = "Custom Views com Kotlin"
+include ':app'

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="FollowersIndicator">
+
+        <attr name="counter" format="string" />
+        <attr name="indicator" format="string" />
+        <attr name="bold" format="boolean" />
+
+    </declare-styleable>
+
+    <declare-styleable name="ProfileImage">
+
+        <attr name="src" format="reference" />
+        <attr name="visualized" format="boolean" />
+
+    </declare-styleable>
+
+</resources>

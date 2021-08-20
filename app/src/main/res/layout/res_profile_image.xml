@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/cvProfileImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        app:cardBackgroundColor="@color/instagram_color"
+        app:cardCornerRadius="500dp"
+        app:contentPadding="2dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/img_profile_image"
+            android:layout_width="wrap_content"
+            android:maxWidth="100dp"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:padding="2dp"
+            app:shapeAppearanceOverlay="@style/roundImageView"
+            app:strokeColor="@color/white"
+            app:strokeWidth="2dp" />
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
